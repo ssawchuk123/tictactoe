@@ -1,0 +1,130 @@
+body{
+
+	text-align:center;
+	background:
+	linear-gradient(135deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+	linear-gradient(225deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+	background-color:#708090;
+	background-size: 64px 128px
+	
+}
+
+.box{
+
+	text-align:center;
+	width:auto;
+	height:auto;
+
+	
+}
+
+h3{
+
+	position:relative;
+	-webkit-animation:h3Animation 5s; 
+	
+}
+
+ h1{
+            text-align: center;
+            font-size: 72px;
+            line-height: 108px;
+            height: 108px;
+        
+            color: #fff;
+            font-family: 'PT Sans', sans-serif;
+            background: 
+radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent),
+radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent) 50px 50px,
+linear-gradient(#A8B1BB 8px, transparent 8px) 0 -4px,
+linear-gradient(90deg, #A8B1BB 8px, transparent 8px) -4px 0;
+background-color: slategray;
+background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
+-webkit-box-shadow:
+            inset 0 0 50px #000,
+                inset 0 0 50px #000,
+                inset 0 0 50px #000;
+   
+     -moz-box-shadow:
+            inset 0 0 50px #000,
+                inset 0 0 50px #000,
+                inset 0 0 50px #000;
+   
+          box-shadow:
+            inset 0 0 50px #000,
+                inset 0 0 50px #000,
+                inset 0 0 50px #000;
+           
+        }
+        
+   
+
+h2{
+
+	position:relative;
+	-webkit-animation:h2Animation 5s; 
+	
+}
+
+canvas{
+
+	position:relative;
+	-webkit-animation:canvasAnimation 5s;
+	background: 
+radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent),
+radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent) 50px 50px,
+linear-gradient(#A8B1BB 8px, transparent 8px) 0 -4px,
+linear-gradient(90deg, #A8B1BB 8px, transparent 8px) -4px 0;
+background-color: slategray;
+background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
+	 -webkit-box-shadow:
+            inset 0 0 50px #000,
+                inset 0 0 50px #000,
+                inset 0 0 50px #000;
+   
+     -moz-box-shadow:
+            inset 0 0 50px #000,
+                inset 0 0 50px #000,
+                inset 0 0 50px #000;
+   
+          box-shadow:
+            inset 0 0 50px #000,
+                inset 0 0 50px #000,
+                inset 0 0 50px #000;
+
+}
+
+
+
+@-webkit-keyframes canvasAnimation {
+
+	0%   {-webkit-transform:rotate(90deg);left:0px; top:0px;}
+	
+}
+
+@-webkit-keyframes h1Animation {
+
+	0%   {-webkit-transform:rotate(0deg)}
+	25%   {-webkit-transform:rotate(90deg)}
+	50%  {-webkit-transform:rotate(180deg)}
+	75%  {-webkit-transform:rotate(270deg)}
+	100%  { -webkit-transform:rotate(360deg)}
+	
+}
+
+@-webkit-keyframes h2Animation{
+
+	0%   {-webkit-transform: scale(1,2);}
+	25%   {-webkit-transform: scale(2,3);}
+	50%  {-webkit-transform: scale(3,4);}
+	75%  {-webkit-transform: scale(4,5);}
+	100%  { -webkit-transform: scale(0,0);}
+	
+}
+@-webkit-keyframes h3Animation{
+
+	0%   {-webkit-transform: scale(0,0);}
+	50% {-webkit-transform: scale(0,0);}
+	100%  {-webkit-transform: scale(100,100);}
+	
+}
